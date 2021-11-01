@@ -1,0 +1,4 @@
+- prevent config.yaml file overwritting
+- check if folder get deleated before cloning
+-rm old node_modules
+-run checks on diffrent threads

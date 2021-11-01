@@ -1,0 +1,19 @@
+- name: memoryGame
+  repo: git@bitbucket.org:tomek7sa/xxxx.git
+  lastSHA: 9109b10c870d201862defa8d7f033a084d5c9961
+  path: xxxx
+  port: xxxx
+  run:
+    - cd server
+    - npm i
+  cmd: cd server && npm run start
+
+- name: memoryGame_client
+  repo: git@bitbucket.org:tomek7sa/xxxx.git
+  lastSHA: 9109b10c870d201862defa8d7f033a084d5c9961
+  path: xxxx
+  port: 3000
+  run:
+    - npm i 
+  cmd: npm start
+
